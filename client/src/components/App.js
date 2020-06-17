@@ -3,10 +3,10 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import { connect } from 'react-redux';
 import * as actions from '../actions';
 import Header from './Header';
+import Landing from './Landing';
 
 const Dashboard = () => <div>Dashboard</div>
 const SurveyNew = () => <div>SurveyNew</div>
-const Landing = () => <div>Landing</div>
 
 class App extends Component {
   componentDidMount() {
